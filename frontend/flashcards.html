@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Flashcards - Khandakar's Digital Assistance</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- MathJax for LaTeX support -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="js/header-footer.js"></script>
+</head>
+<body>
+    <div class="page-container">
+
+        <!-- PAGE CONTENT -->
+        <div class="page-content">
+            <div class="container">
+                <div class="header">
+                    <h1>📚 Study Flashcards</h1>
+                    <p>Master concepts with interactive flashcards</p>
+                </div>
+
+                <div class="content">
+                    <!-- FORM SCREEN -->
+                    <div id="formScreen" class="flashcard-form-screen active">
+                        <!-- Inputs Row -->
+                        <div class="form-inputs-row">
+                            <div class="form-group form-group-large">
+                                <label for="topicInput">📖 What would you like to study?</label>
+                                <input 
+                                    type="text" 
+                                    id="topicInput" 
+                                    placeholder="e.g., Ohm's Law, Photosynthesis, Newton's Laws..."
+                                    maxlength="200"
+                                />
+                            </div>
+
+                            <div class="form-group form-group-small">
+                                <label for="numCardsInput">📑 Number</label>
+                                <input 
+                                    type="number" 
+                                    id="numCardsInput" 
+                                    min="2" 
+                                    max="20" 
+                                    value="5"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Button Row -->
+                        <div class="form-button-row">
+                            <button class="btn-generate" id="generateBtn" onclick="generateFlashcards()">
+                                Generate ✨
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- LOADING SCREEN -->
+                    <div id="loadingScreen" class="flashcard-loading-screen">
+                        <div class="spinner"></div>
+                        <div class="loading-text">Generating your flashcards...</div>
+                    </div>
+
+                    <!-- FLASHCARD SCREEN -->
+                    <div id="flashcardScreen" class="flashcard-screen">
+                        <div class="progress-info">
+                            <span id="progressText">Card 1 of 5</span>
+                        </div>
+
+                        <div class="flashcard-display" id="flashcardDisplay" onclick="toggleFlip()">
+                            <div class="category-label" id="categoryLabel">CATEGORY</div>
+                            <div class="term" id="termDisplay">Loading...</div>
+                            <div class="definition" id="definitionDisplay">Loading...</div>
+                            
+                            <div class="example-section" id="exampleSection">
+                                <div class="example-label">Example:</div>
+                                <div class="example-text" id="exampleDisplay">Loading...</div>
+                            </div>
+                        </div>
+
+                        <div class="controls">
+                            <button class="btn" id="prevBtn" onclick="previousCard()" disabled>← Previous</button>
+                            <button class="btn primary" id="reviewBtn" onclick="showSummaryScreen()">Review All</button>
+                            <button class="btn" id="nextBtn" onclick="nextCard()">Next →</button>
+                        </div>
+                    </div>
+
+                    <!-- SUMMARY SCREEN -->
+                    <div id="summaryScreen" class="flashcard-summary-screen">
+                        <div class="summary-header">
+                            <h2>📖 Study Summary</h2>
+                            <p id="summaryTopic">All Flashcards</p>
+                        </div>
+
+                        <div class="cards-list" id="cardsList">
+                            <!-- Cards will be populated here -->
+                        </div>
+
+                        <div class="summary-controls">
+                            <button class="btn" onclick="showFlashcardScreen()">← Back to Study</button>
+                            <button class="btn primary" onclick="restartFlashcards()">Create New Deck</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/flashcards.js"></script>
+</body>
+</html>

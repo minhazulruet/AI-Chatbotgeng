@@ -1,0 +1,6 @@
+{
+  "embedding_model": "all-MiniLM-L6-v2",
+  "embedding_dim": 2048,
+  "total_chunks": 1787,
+  "total_vectors": 1787
+}

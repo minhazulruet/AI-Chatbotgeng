@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - GENG 300 Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/header-footer.js"></script>
+    <!-- MathJax for LaTeX rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]'], ['[', ']']]  // Add square brackets for display math
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="chat-page">
+            <!-- Chat Header with Controls -->
+            <div class="chat-header">
+                <div class="chat-title">
+                    <h1>📚 GENG 300 Assistant</h1>
+                    <p>Applied Numerical Methods with MATLAB - Ask anything about the course!</p>
+                </div>
+                
+                <!-- Chat Controls - Simple clear button -->
+                <div class="chat-controls">
+                    <button class="btn-secondary" onclick="clearChat()">
+                        🗑️ Clear History
+                    </button>
+                </div>
+            </div>
+
+            <!-- Main Chat Container -->
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="welcome-message">
+                        <h2>Welcome to GENG 300 Chat! 👋</h2>
+                        <p>I'm here to help you master Applied Numerical Methods with MATLAB by:</p>
+                        <ul>
+                            <li>🔍 Retrieving relevant concepts from Chapra's textbook</li>
+                            <li>📖 Explaining numerical methods and algorithms in clear, student-friendly language</li>
+                            <li>💻 Providing MATLAB code examples and practical applications</li>
+                            <li>⭐ Connecting theory to real-world engineering problems</li>
+                        </ul>
+                        <p style="margin-top: 20px;"><strong>Try asking:</strong></p>
+                        <ul>
+                            <li>"What is numerical differentiation?"</li>
+                            <li>"How do I implement the Newton-Raphson method in MATLAB?"</li>
+                            <li>"Explain interpolation and polynomial fitting"</li>
+                            <li>"What are the advantages of numerical integration?"</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Chat Input Area -->
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <input 
+                            type="text" numerical method
+                            id="messageInput" 
+                            placeholder="Ask a question about circuits..." 
+                            autocomplete="off"
+                        />
+                        <button id="sendBtn" class="btn-primary" onclick="sendMessage()">
+                            Send ➤
+                        </button>
+                    </div>
+                    <small class="input-hint">Press Enter to send, Shift+Enter for new line</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>

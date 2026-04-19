@@ -1,0 +1,242 @@
+[
+  {
+    "content": "Fundamentals of\nElectric Circuits\nFiFth Edition\nCharles K. Alexander | Matthew n. o. Sadiku\nFundamentals of\nElectric Circuits\nFiFth \nEdition\nAlexander\nSadiku\nW\nith its objective to present circuit analysis in a manner that is clearer, more interesting, and easier to \nunderstand than other texts, Fundamentals of Electric Circuits  by Charles Alexander and Matthew Sadiku \nhas become the student choice for introductory electric circuits courses. \nBuilding on the success of the previous editions, the ﬁfth edition features the latest updates and advances in the \nﬁeld, while continuing to present material with an unmatched pedagogy and communication style.\nPedagogical Features\n■   Problem-Solving Methodology. A six-step method for solving circuits problems is introduced in Chapter 1 and \nused consistently throughout the book to help students develop a systems approach to problem solving that \nleads to better understanding and fewer mistakes in mathematics and theory.\n■   Matched Example Problems and Extended Examples. Each illustrative example is immediately followed by a \npractice problem and answer to test understanding of the preceding example. one extended example per \nchapter shows an example problem worked using a detailed outline of the six-step method so students can \nsee how to practice this technique. Students follow the example step-by-step to solve the practice problem \nwithout having to ﬂip pages or search the end of the book for answers.\n■   Comprehensive Coverage of Material. not only is Fundamentals the most comprehensive text in terms of \nmaterial, but it is also self-contained in regards to mathematics and theory, which means that when students \nhave questions regarding the mathematics or theory they are using to solve problems, they can ﬁnd answers to \ntheir questions in the text itself. they will not need to seek out other references. \n■   Computer tools. PSpice® for Windows is used throughout the text with discussions and examples at the end of \neach appropriate chapter. MAtLAB® is also used in the book as a computational tool.\n■   new to the ﬁfth edition is the addition of 120 national instruments Multisim™ circuit ﬁles. Solutions for almost \nall of the problems solved using PSpice are also available to the instructor in Multisim. \n■   We continue to make available KCidE for Circuits (a Knowledge Capturing integrated design Environment for \nCircuits).\n",
+    "chapter": 1,
+    "section": "Introduction",
+    "source": "textbook",
+    "token_count": 500,
+    "chunk_index": 0
+  },
+  {
+    "content": ".\n■   new to the ﬁfth edition is the addition of 120 national instruments Multisim™ circuit ﬁles. Solutions for almost \nall of the problems solved using PSpice are also available to the instructor in Multisim. \n■   We continue to make available KCidE for Circuits (a Knowledge Capturing integrated design Environment for \nCircuits).\n■    An icon is used to identify homework problems that either should be solved or are more easily solved using \nPSpice, Multisim, and/or KCidE. Likewise, we use another icon to identify problems that should be solved or are \nmore easily solved using MAtLAB.\nTeaching Resources\nMcGraw-hill Connect® Engineering is a web-based assignment and assessment platform that gives students the \nmeans to better connect with their coursework, with their instructors, and with the important concepts that they \nwill need to know for success now and in the future. Contact your McGraw-hill sales representative or visit www.\nconnect.mcgraw-hill.com  for more details.\nthe text also features a website of student and instructor resources. Check it out at www.mhhe.com/alexander .\nMD DALIM  1167970  10/30/11 CYAN MAG YELO BLACK\n\nTM\nale80571_fm_i-xxii_1.qxd  12/2/11  5:00 PM  Page i\nfifth edition\nFundamentals of\nElectric Circuits\nCharles K. Alexander\nDepartment of Electrical and\nComputer Engineering\nCleveland State University\nMatthew N. O. Sadiku\nDepartment of\nElectrical Engineering\nPrairie View A&M University\nTM\nale80571_fm_i-xxii_1.qxd  12/2/11  5:00 PM  Page i\nFUNDAMENTALS OF ELECTRIC CIRCUITS, FIFTH EDITION\nPublished by McGraw-Hill, a business unit of The McGraw-Hill Companies, Inc., 1221 Avenue of\nthe Americas, New York, NY 10020. Copyright © 2013 by The McGraw-Hill Companies, Inc. All\nrights reserved. Printed in the United States of America. Previous editions © 2009, 2007 and 2004.\nNo part of this publication may be reproduced or distributed in any form or by any means, or",
+    "chapter": 1,
+    "section": "Introduction",
+    "source": "textbook",
+    "token_count": 500,
+    "chunk_index": 1
+  },
+  {
+    "content": "., 1221 Avenue of\nthe Americas, New York, NY 10020. Copyright © 2013 by The McGraw-Hill Companies, Inc. All\nrights reserved. Printed in the United States of America. Previous editions © 2009, 2007 and 2004.\nNo part of this publication may be reproduced or distributed in any form or by any means, or stored\nin a database or retrieval system, without the prior written consent of The McGraw-Hill Companies,\nInc., including, but not limited to, in any network or other electronic storage or transmission, or\nbroadcast for distance learning.\nSome ancillaries, including electronic and print components, may not be available to customers\noutside the United States.\nThis book is printed on acid-free paper.\n1 2 3 4 5 6 7 8 9 0 RJE/RJE 1 0 9 8 7 6 5 4 3 2  \nISBN 978-0-07-338057-5\nMHID 0-07-338057-1\nVice President & Editor-in-Chief: Marty Lange\nVice President & Director of Specialized Publishing: Janice M. Roerig-Blong\nEditorial Director: Michael Lange\nPublisher: Raghothaman Srinivasan\nMarketing Manager: Curt Reynolds\nDevelopmental Editor: Lora Neyens\nProject Manager: Joyce Watters/Lisa Bruﬂodt\nDesign Coordinator: Margarite Reynolds\nCover Designer: Studio Montage, St. Louis, Missouri\nCover Image Credit: NASA. Artist’ s Concept of Rover on Mars\nBuyer: Sherry L. Kane\nMedia Project Manager: Balaji Sundararaman\nCompositor: MPS Limited, a Macmillan Company\nTypeface: 10/12 Times Roman\nPrinter: RR Donnelly\nAll credits appearing on page or at the end of the book are considered to be an extension of the\ncopyright page.\nLibrary of Congress Cataloging-in-Publication Data\nAlexander, Charles K.\nFundamentals of electric circuits / Charles K. Alexander, Matthew N. O. Sadiku. — 5th ed.\np. cm.\nISBN 978-0-07-338057-5 (alk. paper)",
+    "chapter": 1,
+    "section": "Introduction",
+    "source": "textbook",
+    "token_count": 479,
+    "chunk_index": 2
+  },
+  {
+    "content": "TK454.A452 2012\n621.319'24—dc23 2011025116\nwww.mhhe.com\nTM\nale80571_fm_i-xxii_1.qxd  12/2/11  5:00 PM  Page ii\nDedicated to our wives, Kikelomo and Hannah, whose understanding and\nsupport have truly made this book possible.\nMatthew\nand\nChuck\nale80571_fm_i-xxii_1.qxd  12/2/11  5:00 PM  Page iii\nale80571_fm_i-xxii_1.qxd  12/2/11  5:00 PM  Page iv\nContents\nPreface xi\nAcknowledgements xvi\nA Note to the Student xix\nAbout the Authors xxi\nPART 1 DC Circuits 2",
+    "chapter": 1,
+    "section": "1.  Electric circuits.  I. Sadiku, Matthew N. O.  II. Title.",
+    "source": "textbook",
+    "token_count": 181,
+    "chunk_index": 3
+  },
+  {
+    "content": "1.7\n†Applications 17",
+    "chapter": 1,
+    "section": "1.6 Circuit Elements 15",
+    "source": "textbook",
+    "token_count": 8,
+    "chunk_index": 4
+  },
+  {
+    "content": "Review Questions 24\nProblems 24\nComprehensive Problems 27",
+    "chapter": 1,
+    "section": "1.9 Summary 23",
+    "source": "textbook",
+    "token_count": 15,
+    "chunk_index": 5
+  },
+  {
+    "content": "2.3\n†Nodes, Branches, and Loops 35",
+    "chapter": 1,
+    "section": "2.2 Ohm’s Law 30",
+    "source": "textbook",
+    "token_count": 15,
+    "chunk_index": 6
+  },
+  {
+    "content": "2.7\n†Wye-Delta Transformations 52\nDelta to Wye Conversion\nWye to Delta Conversion",
+    "chapter": 1,
+    "section": "2.6 Parallel Resistors and Current Division 45",
+    "source": "textbook",
+    "token_count": 25,
+    "chunk_index": 7
+  },
+  {
+    "content": "Review Questions 66\nProblems 67\nComprehensive Problems 78\nv",
+    "chapter": 1,
+    "section": "2.9 Summary 64",
+    "source": "textbook",
+    "token_count": 17,
+    "chunk_index": 8
+  },
+  {
+    "content": "Sources 88",
+    "chapter": 1,
+    "section": "3.3 Nodal Analysis with Voltage",
+    "source": "textbook",
+    "token_count": 3,
+    "chunk_index": 9
+  },
+  {
+    "content": "3.6\n†Nodal and Mesh Analyses\nby Inspection 100",
+    "chapter": 1,
+    "section": "3.5 Mesh Analysis with Current Sources 98",
+    "source": "textbook",
+    "token_count": 16,
+    "chunk_index": 10
+  },
+  {
+    "content": "3.9\n†Applications: DC Transistor \nCircuits 107",
+    "chapter": 1,
+    "section": "3.8 Circuit Analysis with PSpice 105",
+    "source": "textbook",
+    "token_count": 16,
+    "chunk_index": 11
+  },
+  {
+    "content": "Review Questions 113\nProblems 114\nComprehensive Problem 126",
+    "chapter": 1,
+    "section": "3.10 Summary 112",
+    "source": "textbook",
+    "token_count": 15,
+    "chunk_index": 12
+  },
+  {
+    "content": "4.7\n†Derivations of Thevenin’s \nand Norton’s Theorems 149",
+    "chapter": 1,
+    "section": "4.6 Norton’s Theorem 145",
+    "source": "textbook",
+    "token_count": 22,
+    "chunk_index": 13
+  },
+  {
+    "content": "with PSpice 152\n4.10\n†Applications 155",
+    "chapter": 1,
+    "section": "4.9 Verifying Circuit Theorems",
+    "source": "textbook",
+    "token_count": 15,
+    "chunk_index": 14
+  },
+  {
+    "content": "Review Questions 161\nProblems 162\nComprehensive Problems 173",
+    "chapter": 1,
+    "section": "4.11 Summary 160",
+    "source": "textbook",
+    "token_count": 15,
+    "chunk_index": 15
+  },
+  {
+    "content": "ale80571_fm_i-xxii_1.qxd  12/2/11  5:00 PM  Page v\nvi Contents",
+    "chapter": 1,
+    "section": "5.2 Operational Ampliﬁers 176",
+    "source": "textbook",
+    "token_count": 31,
+    "chunk_index": 16
+  },
+  {
+    "content": "5.10\n†Applications 196",
+    "chapter": 1,
+    "section": "5.9 Op Amp Circuit Analysis with PSpice 194",
+    "source": "textbook",
+    "token_count": 8,
+    "chunk_index": 17
+  },
+  {
+    "content": "Review Questions 201\nProblems 202\nComprehensive Problems 213",
+    "chapter": 1,
+    "section": "5.11 Summary 199",
+    "source": "textbook",
+    "token_count": 15,
+    "chunk_index": 18
+  },
+  {
+    "content": "Inductors 215",
+    "chapter": 1,
+    "section": "Chapter 6 Capacitors and",
+    "source": "textbook",
+    "token_count": 5,
+    "chunk_index": 19
+  },
+  {
+    "content": "6.6\n†Applications 233",
+    "chapter": 1,
+    "section": "6.5 Series and Parallel Inductors 230",
+    "source": "textbook",
+    "token_count": 8,
+    "chunk_index": 20
+  },
+  {
+    "content": "Review Questions 241\nProblems 242\nComprehensive Problems 251",
+    "chapter": 1,
+    "section": "6.7 Summary 240",
+    "source": "textbook",
+    "token_count": 15,
+    "chunk_index": 21
+  },
+  {
+    "content": "7.7\n†First-Order Op Amp Circuits 284",
+    "chapter": 1,
+    "section": "7.6 Step Response of an RL Circuit 280",
+    "source": "textbook",
+    "token_count": 14,
+    "chunk_index": 22
+  },
+  {
+    "content": "Review Questions 300\nProblems 301\nComprehensive Problems 311",
+    "chapter": 1,
+    "section": "7.10 Summary 299",
+    "source": "textbook",
+    "token_count": 15,
+    "chunk_index": 23
+  },
+  {
+    "content": "RLC Circuit 319",
+    "chapter": 1,
+    "section": "8.3 The Source-Free Series",
+    "source": "textbook",
+    "token_count": 5,
+    "chunk_index": 24
+  },
+  {
+    "content": "RLC Circuit 326",
+    "chapter": 1,
+    "section": "8.4 The Source-Free Parallel",
+    "source": "textbook",
+    "token_count": 5,
+    "chunk_index": 25
+  },
+  {
+    "content": "Circuit 331",
+    "chapter": 1,
+    "section": "8.5 Step Response of a Series RLC",
+    "source": "textbook",
+    "token_count": 4,
+    "chunk_index": 26
+  },
+  {
+    "content": "Circuit 336",
+    "chapter": 1,
+    "section": "8.6 Step Response of a Parallel RLC",
+    "source": "textbook",
+    "token_count": 4,
+    "chunk_index": 27
+  },
+  {
+    "content": "8.10\n†Duality 350",
+    "chapter": 1,
+    "section": "8.9 PSpice Analysis of RLC Circuits 346",
+    "source": "textbook",
+    "token_count": 9,
+    "chunk_index": 28
+  },
+  {
+    "content": "Review Questions 357\nProblems 358\nComprehensive Problems 367\nPART 2 AC Circuits 368",
+    "chapter": 1,
+    "section": "8.12 Summary 356",
+    "source": "textbook",
+    "token_count": 24,
+    "chunk_index": 29
+  }
+]

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - GENG 300 Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- MathJax for LaTeX rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script src="js/header-footer.js"></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]'], ['[', ']']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="quiz-page">
+            <!-- Quiz Header -->
+            <div class="quiz-header">
+                <div class="quiz-title">
+                    <h1>📝 GENG 300 Quiz Generator</h1>
+                    <p>Test your knowledge of Applied Numerical Methods with AI-generated quizzes</p>
+                </div>
+            </div>
+
+            <!-- Quiz Container -->
+            <div class="quiz-container">
+                <!-- LOADING SCREEN -->
+                <div id="loadingScreen" class="loading-screen">
+                    <div class="loading-message">
+                        <div class="loading-spinner"></div>
+                        <p>Generating your quiz...</p>
+                        <p style="font-size: 12px; color: #999;">This may take a moment</p>
+                    </div>
+                </div>
+
+                <!-- FORM SCREEN -->
+                <div id="formScreen" class="quiz-form-screen active">
+                    <div class="quiz-form">
+                        <h2>Create Your Quiz</h2>
+
+                        <div class="form-group">
+                            <label for="topicInput">📚 Topic</label>
+                            <input 
+                                type="text" 
+                                id="topicInput" 
+                                placeholder="e.g., Newton-Raphson, Numerical Integration, Interpolation" 
+                                maxlength="200"
+                            />
+                            <div class="form-hint">Enter a numerical methods topic from GENG 300</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="numQuestionsInput">❓ Number of Questions</label>
+                            <input 
+                                type="number" 
+                                id="numQuestionsInput" 
+                                min="1" 
+                                max="15" 
+                                value="5"
+                            />
+                            <div class="form-hint">1-15 questions (1 recommended per minute of study)</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="difficultySelect">⚡ Difficulty Level</label>
+                            <select id="difficultySelect">
+                                <option value="Easy">Easy - 2 minutes per question</option>
+                                <option value="Medium" selected>Medium - 3 minutes per question</option>
+                                <option value="Hard">Hard - 4 minutes per question</option>
+                            </select>
+                            <div class="form-hint">Higher difficulty = more time per question</div>
+                        </div>
+
+                        <div class="form-button-group">
+                            <button class="btn-generate" id="generateBtn" onclick="generateQuiz()">
+                                Generate Quiz ✨
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- QUIZ DISPLAY SCREEN -->
+                <div id="quizScreen" class="quiz-display-screen">
+                    <!-- Status Bar -->
+                    <div class="quiz-status-bar">
+                        <div class="quiz-progress">
+                            <div class="quiz-progress-text" id="progressText">Question 1 of 5</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill" style="width: 20%"></div>
+                            </div>
+                            <div style="font-size: 12px; color: #999; margin-top: 5px; text-align: center;" id="completionStatus">0 / 5 answered</div>
+                        </div>
+                        <div class="quiz-timer" id="timer">10:00</div>
+                    </div>
+
+                    <!-- Question Display -->
+                    <div id="questionArea"></div>
+
+                    <!-- Navigation -->
+                    <div class="quiz-navigation">
+                        <button class="btn-nav" id="prevBtn" onclick="previousQuestion()" disabled>← Previous</button>
+                        <button class="btn-nav btn-submit" id="submitBtn" onclick="submitQuiz()">Submit Quiz →</button>
+                        <button class="btn-nav" id="nextBtn" onclick="nextQuestion()">Next →</button>
+                    </div>
+                </div>
+
+                <!-- RESULTS SCREEN -->
+                <div id="resultsScreen" class="results-screen">
+                    <div class="results-card">
+                        <div class="results-header">
+                            <h2>Quiz Complete! 🎉</h2>
+                            <div class="score-display" id="scoreDisplay">80%</div>
+                            <div class="grade-badge" id="gradeBadge">B</div>
+                        </div>
+
+                        <div class="results-summary">
+                            <div class="summary-item">
+                                <strong>Correct Answers:</strong> <span id="correctCount">4</span> out of <span id="totalCount">5</span>
+                            </div>
+                            <div class="summary-item">
+                                <strong>Accuracy:</strong> <span id="accuracyDisplay">80%</span>
+                            </div>
+                            <div class="summary-item">
+                                <strong>Topic:</strong> <span id="topicDisplay">Ohm's Law</span>
+                            </div>
+                        </div>
+
+                        <div class="question-review">
+                            <div class="review-title">Question Breakdown</div>
+                            <div id="reviewList"></div>
+                        </div>
+
+                        <div class="results-button-group">
+                            <button class="btn-restart" onclick="restartQuiz()">Take Another Quiz</button>
+                            <button class="btn-home" onclick="goHome()">Home</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

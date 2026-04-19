@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Khandakar's Digital Assistance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/header-footer.js"></script>
+</head>
+<body>
+    <div class="auth-page">
+    <div class="auth-container">
+        <h2>Create Account</h2>
+        
+        <div id="message"></div>
+
+        <form id="signupForm" onsubmit="handleSignup(event)">
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email (@student.qu.edu.qa) *</label>
+                <input type="email" id="email" name="email" placeholder="your@student.qu.edu.qa" required>
+            </div>
+
+            <div class="form-group">
+                <label for="department">Department *</label>
+                <input type="text" id="department" name="department" required>
+            </div>
+
+            <div class="form-group">
+                <label for="rollId">Roll/ID Number *</label>
+                <input type="text" id="rollId" name="rollId" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password *</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="password-requirements">
+                <strong>Password Requirements:</strong>
+                <div class="requirement">
+                    <span class="requirement-icon" id="lengthCheck">✗</span>
+                    <span>At least 8 characters</span>
+                </div>
+                <div class="requirement">
+                    <span class="requirement-icon" id="upperCheck">✗</span>
+                    <span>One uppercase letter</span>
+                </div>
+                <div class="requirement">
+                    <span class="requirement-icon" id="lowerCheck">✗</span>
+                    <span>One lowercase letter</span>
+                </div>
+                <div class="requirement">
+                    <span class="requirement-icon" id="digitCheck">✗</span>
+                    <span>One digit</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password *</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+
+            <button type="submit" class="btn-submit" id="submitBtn">Sign Up</button>
+            <div class="loading" id="loading">
+                <div class="spinner"></div> Creating account...
+            </div>
+        </form>
+
+        <div class="auth-link">
+            Already have an account? <a href="login.html">Login here</a>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

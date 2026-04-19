@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENG 300 - Applied Numerical Methods Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/header-footer.js"></script>
+    <!-- MathJax for LaTeX rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]'], ['[', ']']]  // Add square brackets for display math
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <div class="page-wrapper">        <!-- Sidebar Personal Details - Top Left -->
+        <div class="sidebar" id="personalSidebar">
+            <div class="sidebar-title">
+                <span class="sidebar-icon">👤</span>
+                Profile
+            </div>
+            <div id="sidebarContent"></div>
+        </div>
+        <div>
+        <div class="welcome-section">
+            <h1>GENG 300 - Applied Numerical Methods 🎓</h1>
+            <p>Your intelligent learning companion for mastering numerical methods with MATLAB</p>
+            <div class="user-details" id="userDetails"></div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>💬 Chat</h3>
+                <p>Ask questions about numerical methods, algorithms, and MATLAB implementation</p>
+                <a href="chat.html" class="btn">Start Chat</a>
+            </div>
+            
+            <div class="feature-card">
+                <h3>📝 Quiz</h3>
+                <p>Test your understanding with AI-generated quizzes on course topics</p>
+                <a href="quiz.html" class="btn">Take Quiz</a>
+            </div>
+            
+            <div class="feature-card">
+                <h3>📇 Flashcards</h3>
+                <p>Master key concepts with spaced repetition flashcards</p>
+                <a href="flashcards.html" class="btn">Study Flashcards</a>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🧮 Math Solver</h3>
+                <p>Upload images of numerical problems and get step-by-step solutions</p>
+                <a href="mathsolver.html" class="btn">Solve Problems</a>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🔍 Diagnostics</h3>
+                <p>Identify your learning gaps in numerical methods</p>
+                <a href="diagnostics.html" class="btn">Run Diagnostics</a>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+    <script>
+
+        // Display user information on homepage
+        function displayUserInfo() {
+            const userInfo = getUserInfo();
+            
+            if (userInfo) {
+                // Update navbar greeting
+                const userWelcome = document.getElementById('userWelcome');
+                if (userWelcome) {
+                    userWelcome.textContent = `Welcome, ${userInfo.name || userInfo.email}!`;
+                }
+
+                // Display user details in sidebar
+                const sidebarContent = document.getElementById('sidebarContent');
+                if (sidebarContent && userInfo.name) {
+                    sidebarContent.innerHTML = `
+                        <div class="sidebar-item">
+                            <div class="sidebar-label">📝 Name</div>
+                            <div class="sidebar-value">${userInfo.name || 'N/A'}</div>
+                        </div>
+                        <div class="sidebar-item">
+                            <div class="sidebar-label">✉️ Email</div>
+                            <div class="sidebar-value">${userInfo.email || 'N/A'}</div>
+                        </div>
+                        <div class="sidebar-item">
+                            <div class="sidebar-label">🏢 Department</div>
+                            <div class="sidebar-value">${userInfo.department || 'N/A'}</div>
+                        </div>
+                        <div class="sidebar-item">
+                            <div class="sidebar-label">🆔 Roll/ID</div>
+                            <div class="sidebar-value">${userInfo.roll_id || 'N/A'}</div>
+                        </div>
+                    `;
+                } else if (!userInfo.name) {
+                    const sidebarContent = document.getElementById('sidebarContent');
+                    if (sidebarContent) {
+                        sidebarContent.innerHTML = '<div class="sidebar-empty">Login to see your profile</div>';
+                    }
+                }
+            } else {
+                // Show default message if not logged in
+                const sidebarContent = document.getElementById('sidebarContent');
+                if (sidebarContent) {
+                    sidebarContent.innerHTML = '<div class="sidebar-empty">👋 Login to view your profile</div>';
+                }
+            }
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            displayUserInfo();
+        });
+    </script>
+</body>
+</html>

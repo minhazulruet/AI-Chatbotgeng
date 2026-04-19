@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostics - GENG 300 Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/header-footer.js"></script>
+</head>
+<body>
+
+    <div class="diagnostics-container">
+        <!-- Header Section -->
+        <div class="diagnostics-header">
+            <h1>🔍 GENG 300 Learning Diagnostics</h1>
+            <p>Tell us about your learning experience in Applied Numerical Methods and get personalized improvement recommendations</p>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="diagnostics-content">
+            <!-- Input Section -->
+            <div class="input-section">
+                <h2>Your Learning Concern in GENG 300</h2>
+                <p>Describe your learning experience. What numerical methods or MATLAB concepts are you struggling with?</p>
+
+                <form id="diagnosticForm">
+                    <div class="form-group">
+                        <label for="inputText">Tell us about your learning experience in GENG 300:</label>
+                        <textarea 
+                            id="inputText" 
+                            placeholder="Example: I'm confused about the difference between numerical differentiation and analytical derivatives. I also struggle with implementing algorithms in MATLAB..." 
+                            required
+                        ></textarea>
+                        <div class="char-count">
+                            <span id="charCount">0</span> / 2000 characters
+                        </div>
+                    </div>
+
+                    <div class="example-prompts">
+                        <h3>💡 Example Prompts:</h3>
+                        <div class="example-prompt" onclick="fillExample('I struggle with implementing the Newton-Raphson method in MATLAB. I understand the theory but I keep getting errors when I write the code and I\'m not sure how to debug it.')">
+                            <strong>Implementation Challenge</strong>
+                            <small>Click to use this as an example</small>
+                        </div>
+                        <div class="example-prompt" onclick="fillExample('I\'m confused about when to use numerical integration vs. differentiation. The textbook has so many methods and I don\'t know which one applies to my problem.')">
+                            <strong>Concept Confusion</strong>
+                            <small>Click to use this as an example</small>
+                        </div>
+                        <div class="example-prompt" onclick="fillExample('I\'ve been practicing with interpolation methods and I\'m getting better. What should I focus on next to master error analysis and convergence criteria?')">
+                            <strong>Learning Progression</strong>
+                            <small>Click to use this as an example</small>
+                        </div>
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit" class="btn-submit" id="submitBtn">Analyze My Learning</button>
+                        <button type="reset" class="btn-clear">Clear</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section" id="resultsSection">
+                <h2>Analysis Results</h2>
+                <div id="diagnosticsResultContent">
+                    <p class="results-placeholder">
+                        Submit your learning concern to see personalized recommendations below.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/diagnostics.js"></script>
+</body>
+</html>

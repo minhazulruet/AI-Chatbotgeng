@@ -1,0 +1,6 @@
+{
+  "embedding_model": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
+  "embedding_dim": 2048,
+  "total_chunks": 30,
+  "total_vectors": 30
+}

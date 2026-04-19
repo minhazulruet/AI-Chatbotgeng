@@ -1,0 +1,137 @@
+[
+  {
+    "query": "Who is the writer of this book?",
+    "status": "passed",
+    "num_results": 3,
+    "results": [
+      {
+        "rank": 1,
+        "section": "Chapter 1 introduces a six-step method for solving circuit prob-",
+        "hybrid_score": 0.49999999996727634,
+        "bm25_score": 0.9999999999345527,
+        "faiss_score": 0.0,
+        "token_count": 500,
+        "content_length": 1923,
+        "keywords_found": [
+          "Alexander",
+          "Sadiku",
+          "Charles",
+          "Matthew"
+        ]
+      },
+      {
+        "rank": 2,
+        "section": "Chapter 1 introduces a six-step method for solving circuit prob-",
+        "hybrid_score": 0.42249064952717935,
+        "bm25_score": 0.8449812990543587,
+        "faiss_score": 0.0,
+        "token_count": 500,
+        "content_length": 2302,
+        "keywords_found": []
+      },
+      {
+        "rank": 3,
+        "section": "3. Negative saturation, v o /H11005/H11002VCC.",
+        "hybrid_score": 0.38070325156491946,
+        "bm25_score": 0.7614065031298389,
+        "faiss_score": 0.0,
+        "token_count": 306,
+        "content_length": 1111,
+        "keywords_found": []
+      }
+    ]
+  },
+  {
+    "query": "What is the main topic of this chapter?",
+    "status": "passed",
+    "num_results": 3,
+    "results": [
+      {
+        "rank": 1,
+        "section": "18.56 The voltage across a resistor is",
+        "hybrid_score": 0.49999999996320116,
+        "bm25_score": 0.9999999999264023,
+        "faiss_score": 0.0,
+        "token_count": 31,
+        "content_length": 123,
+        "keywords_found": []
+      },
+      {
+        "rank": 2,
+        "section": "LAB",
+        "hybrid_score": 0.4741904439512331,
+        "bm25_score": 0.9483808879024662,
+        "faiss_score": 0.0,
+        "token_count": 298,
+        "content_length": 1496,
+        "keywords_found": [
+          "circuit",
+          "analysis"
+        ]
+      },
+      {
+        "rank": 3,
+        "section": "3. Take the inverse transform of the solution and thus obtain the",
+        "hybrid_score": 0.4667406083062335,
+        "bm25_score": 0.933481216612467,
+        "faiss_score": 0.0,
+        "token_count": 500,
+        "content_length": 2375,
+        "keywords_found": [
+          "circuit",
+          "electrical",
+          "analysis"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What are the key concepts covered?",
+    "status": "passed",
+    "num_results": 3,
+    "results": [
+      {
+        "rank": 1,
+        "section": "Chapter 1 introduces a six-step method for solving circuit prob-",
+        "hybrid_score": 0.712912142249477,
+        "bm25_score": 0.9999999999454261,
+        "faiss_score": 0.42582428455352783,
+        "token_count": 500,
+        "content_length": 2298,
+        "keywords_found": [
+          "element",
+          "concepts"
+        ]
+      },
+      {
+        "rank": 2,
+        "section": "Chapter 1 introduces a six-step method for solving circuit prob-",
+        "hybrid_score": 0.38529160340250024,
+        "bm25_score": 0.7705832068050005,
+        "faiss_score": 0.0,
+        "token_count": 500,
+        "content_length": 2253,
+        "keywords_found": [
+          "circuit",
+          "element",
+          "concepts"
+        ]
+      },
+      {
+        "rank": 3,
+        "section": "Chapter 1 introduces a six-step method for solving circuit prob-",
+        "hybrid_score": 0.3485291040477642,
+        "bm25_score": 0.6970582080955284,
+        "faiss_score": 0.0,
+        "token_count": 500,
+        "content_length": 2138,
+        "keywords_found": [
+          "circuit",
+          "element",
+          "analysis",
+          "concepts"
+        ]
+      }
+    ]
+  }
+]

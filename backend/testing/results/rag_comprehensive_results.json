@@ -1,0 +1,607 @@
+{
+  "test_metadata": {
+    "total_queries": 11,
+    "total_results": 50,
+    "avg_hybrid_score": 0.59397435298613,
+    "bm25_dominant_count": 10,
+    "faiss_active_count": 10
+  },
+  "queries": [
+    {
+      "query": "resistor circuit analysis",
+      "type": "keyword-based",
+      "status": "error",
+      "error": "OpenRouter API error: {'message': 'No successful provider responses.', 'code': 404}"
+    },
+    {
+      "query": "operational amplifier gain",
+      "type": "keyword-based",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "4. The decibel is the unit of logarithmic gain. For a voltage or current",
+          "hybrid_score": 0.5434884527369379,
+          "bm25_score": 0.5754698115674732,
+          "faiss_score": 0.5115070939064026,
+          "token_count": 8,
+          "content_preview": "gain G, its decibel equivalent is"
+        },
+        {
+          "rank": 2,
+          "section": "2. The input impedance of both inputs is very high and does not vary",
+          "hybrid_score": 0.5318178437667453,
+          "bm25_score": 0.5805601879988839,
+          "faiss_score": 0.48307549953460693,
+          "token_count": 6,
+          "content_preview": "as the gain is adjusted."
+        },
+        {
+          "rank": 3,
+          "section": "3. An ideal op amp has an inﬁnite input resistance, a zero output",
+          "hybrid_score": 0.5272236965613926,
+          "bm25_score": 0.5805601879988839,
+          "faiss_score": 0.47388720512390137,
+          "token_count": 11,
+          "content_preview": "resistance, and an inﬁnite gain."
+        },
+        {
+          "rank": 4,
+          "section": "5.10.2 Instrumentation Ampliﬁers",
+          "hybrid_score": 0.49999999995450306,
+          "bm25_score": 0.9999999999090061,
+          "faiss_score": 0.0,
+          "token_count": 500,
+          "content_preview": "One of the most useful and versatile op amp circuits for precision\nmeasurement and process control is the instrumentation ampliﬁer (IA),\nso called bec"
+        },
+        {
+          "rank": 5,
+          "section": "Chapter 14.",
+          "hybrid_score": 0.4673554629975,
+          "bm25_score": 0.49319714921582525,
+          "faiss_score": 0.4415137767791748,
+          "token_count": 353,
+          "content_preview": "A dB /H1100520 log\n10 ATABLE 5.1\nTypical ranges for op amp parameters.\nParameter Typical range Ideal values\nOpen-loop gain, A 105 to 108 /H11009\nInput"
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.6459574673380144,
+        "avg_faiss_score": 0.38199671506881716,
+        "max_faiss_score": 0.5115070939064026,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "capacitor voltage current",
+      "type": "keyword-based",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "6.7 At , the voltage across a 25-mF capacitor is 10 V .",
+          "hybrid_score": 0.7388638497324906,
+          "bm25_score": 0.8968991519872591,
+          "faiss_score": 0.5808285474777222,
+          "token_count": 21,
+          "content_preview": "Calculate the voltage across the capacitor for \nwhen current 5t mA ﬂows through it."
+        },
+        {
+          "rank": 2,
+          "section": "6.2 A capacitor has energy",
+          "hybrid_score": 0.7047077820376971,
+          "bm25_score": 0.7114874334487158,
+          "faiss_score": 0.6979281306266785,
+          "token_count": 8,
+          "content_preview": "Determine the current through the capacitor."
+        },
+        {
+          "rank": 3,
+          "section": "18.8 The current through an initially uncharged 1-F",
+          "hybrid_score": 0.7000350309832144,
+          "bm25_score": 0.7508848813023662,
+          "faiss_score": 0.6491851806640625,
+          "token_count": 22,
+          "content_preview": "capacitor is The voltage across the capacitor is:\n(a) (b) \n(c) (d)"
+        },
+        {
+          "rank": 4,
+          "section": "6.4 A current of A ﬂows through a 5-F capacitor.",
+          "hybrid_score": 0.6995230920562092,
+          "bm25_score": 0.684758783866752,
+          "faiss_score": 0.7142874002456665,
+          "token_count": 8,
+          "content_preview": "Find the voltage across the capacitor given that"
+        },
+        {
+          "rank": 5,
+          "section": "5. For a resistor for an inductor and for a",
+          "hybrid_score": 0.5741052470028816,
+          "bm25_score": 0.4690038842798111,
+          "faiss_score": 0.6792066097259521,
+          "token_count": 3,
+          "content_preview": "capacitor"
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.7026068269769807,
+        "avg_faiss_score": 0.6642871737480164,
+        "max_faiss_score": 0.7142874002456665,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "How does a circuit work?",
+      "type": "concept-based",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "1.27 A constant current of 3 A for 4 hours is required",
+          "hybrid_score": 0.49999999996293687,
+          "bm25_score": 0.9999999999258737,
+          "faiss_score": 0.0,
+          "token_count": 64,
+          "content_preview": "to charge an automotive battery. If the terminal\nvoltage is V , where t is in hours,\n(a) how much charge is transported as a result of the\ncharging?\n("
+        },
+        {
+          "rank": 2,
+          "section": "1.32 A telephone wire has a current of A ﬂowing",
+          "hybrid_score": 0.4955052063871006,
+          "bm25_score": 0.9910104127742012,
+          "faiss_score": 0.0,
+          "token_count": 21,
+          "content_preview": "through it. How long does it take for a charge of\n15 C to pass through the wire?"
+        },
+        {
+          "rank": 3,
+          "section": "NASA",
+          "hybrid_score": 0.4732712446359747,
+          "bm25_score": 0.4825360057171093,
+          "faiss_score": 0.4640064835548401,
+          "token_count": 500,
+          "content_preview": " looking up material you thought you\nhad acquired in earlier courses may seem very tedious at ﬁrst; how-\never, as your skills develop and your knowled"
+        },
+        {
+          "rank": 4,
+          "section": "6.3 Design a problem to help other students better",
+          "hybrid_score": 0.46468713768831776,
+          "bm25_score": 0.9293742753766355,
+          "faiss_score": 0.0,
+          "token_count": 7,
+          "content_preview": "understand how capacitors work."
+        },
+        {
+          "rank": 5,
+          "section": "6.36 Design a problem to help other students better",
+          "hybrid_score": 0.46468713768831776,
+          "bm25_score": 0.9293742753766355,
+          "faiss_score": 0.0,
+          "token_count": 8,
+          "content_preview": "understand how inductors work."
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.866458993834091,
+        "avg_faiss_score": 0.09280129671096801,
+        "max_faiss_score": 0.4640064835548401,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "What is the relationship between voltage and current?",
+      "type": "concept-based",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "1. That is used for power, while is used for voltage",
+          "hybrid_score": 0.7724222540587872,
+          "bm25_score": 0.9999999999464928,
+          "faiss_score": 0.5448445081710815,
+          "token_count": 13,
+          "content_preview": "or current, because of the square relationship between them\n() ."
+        },
+        {
+          "rank": 2,
+          "section": "5. Power is the energy supplied or absorbed per unit time. It is also",
+          "hybrid_score": 0.6179617090245078,
+          "bm25_score": 0.4916850414315838,
+          "faiss_score": 0.7442383766174316,
+          "token_count": 7,
+          "content_preview": "the product of voltage and current."
+        },
+        {
+          "rank": 3,
+          "section": "1. The power dissipated in a resistor is a nonlinear function of either",
+          "hybrid_score": 0.5145159736559426,
+          "bm25_score": 0.3093651086659501,
+          "faiss_score": 0.7196668386459351,
+          "token_count": 4,
+          "content_preview": "current or voltage."
+        },
+        {
+          "rank": 4,
+          "section": "VCE",
+          "hybrid_score": 0.41991191455647614,
+          "bm25_score": 0.8398238291129523,
+          "faiss_score": 0.0,
+          "token_count": 500,
+          "content_preview": "-\nter. The property is a combination of both the homogeneity (scaling)\nproperty and the additivity property.\nThe homogeneity property requires that if"
+        },
+        {
+          "rank": 5,
+          "section": "2.1 The reciprocal of resistance is:",
+          "hybrid_score": 0.4198174325082342,
+          "bm25_score": 0.29603621313048206,
+          "faiss_score": 0.5435986518859863,
+          "token_count": 18,
+          "content_preview": "(a) voltage (b) current\n(c) conductance (d) coulombs"
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.5873820384574923,
+        "avg_faiss_score": 0.5104696750640869,
+        "max_faiss_score": 0.7442383766174316,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "What is Ohms law?",
+      "type": "question-based",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "1.64 /H1100310/H110028",
+          "hybrid_score": 0.6982958531761801,
+          "bm25_score": 0.9454584551621747,
+          "faiss_score": 0.45113325119018555,
+          "token_count": 406,
+          "content_preview": "/H9024/H11554\nale80571_ch02_029-080.qxd  11/30/11  12:36 PM  Page 30\nsymbol for the resistor is shown in Fig. 2.1(b), where R stands for the\nresistanc"
+        },
+        {
+          "rank": 2,
+          "section": "2. Apply KCL to each of the nonreference nodes. Use",
+          "hybrid_score": 0.5351187615063595,
+          "bm25_score": 0.5743076261812065,
+          "faiss_score": 0.49592989683151245,
+          "token_count": 17,
+          "content_preview": "Ohm’s law to express the branch currents in terms of node\nvoltages."
+        },
+        {
+          "rank": 3,
+          "section": "2.1 Design a problem, complete with a solution, to help",
+          "hybrid_score": 0.5055257549726877,
+          "bm25_score": 0.5412202816891498,
+          "faiss_score": 0.4698312282562256,
+          "token_count": 48,
+          "content_preview": "students to better understand Ohm’s Law. Use at\nleast two resistors and one voltage source. Hint, you\ncould use both resistors at once or one at a tim"
+        },
+        {
+          "rank": 4,
+          "section": "1. A resistor is a passive element in which the voltage v across it is",
+          "hybrid_score": 0.5033578669324557,
+          "bm25_score": 0.5424229095965702,
+          "faiss_score": 0.46429282426834106,
+          "token_count": 76,
+          "content_preview": "directly proportional to the current i through it. That is, a resistor\nis a device that obeys Ohm’s law,\nwhere R is the resistance of the resistor.\nv "
+        },
+        {
+          "rank": 5,
+          "section": "5.93 A /H11005 1",
+          "hybrid_score": 0.49999999995786715,
+          "bm25_score": 0.9999999999157343,
+          "faiss_score": 0.0,
+          "token_count": 181,
+          "content_preview": "H110010.0625 /H11005\n/H11001 0.0625v5 /H110010.03125v6\n /H11005v1 /H110010.5v2 /H110010.25v3 /H110010.125v4\n /H11002vo /H11005(Rf/H20862R1) v1 /H11001"
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.7206818545089672,
+        "avg_faiss_score": 0.3762374401092529,
+        "max_faiss_score": 0.49592989683151245,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "How do you solve circuit problems?",
+      "type": "question-based",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "17.70 Design a problem to help other students better",
+          "hybrid_score": 0.720182653425758,
+          "bm25_score": 0.9996511859866479,
+          "faiss_score": 0.44071412086486816,
+          "token_count": 21,
+          "content_preview": "understand how to use PSpice or MultiSim to solve\ncircuit problems with periodic inputs."
+        },
+        {
+          "rank": 2,
+          "section": "3. Establish a set of alternative solutions and determine the one that",
+          "hybrid_score": 0.5515159878970401,
+          "bm25_score": 0.6349605150702032,
+          "faiss_score": 0.46807146072387695,
+          "token_count": 246,
+          "content_preview": "promises the greatest likelihood of success . There are essentially three\ntechniques that can be used to solve this problem. Later in the text you\nwil"
+        },
+        {
+          "rank": 3,
+          "section": "3. Alternative. There are a couple of ways we can approach the",
+          "hybrid_score": 0.5207149459070719,
+          "bm25_score": 0.5839480306996419,
+          "faiss_score": 0.45748186111450195,
+          "token_count": 104,
+          "content_preview": "problem, the most straightforward being to use the equivalent\ncircuit shown in Fig. 19.57. Once you have the equivalent circuit\nyou can use circuit an"
+        },
+        {
+          "rank": 4,
+          "section": "NASA",
+          "hybrid_score": 0.49999999997096195,
+          "bm25_score": 0.9999999999419239,
+          "faiss_score": 0.0,
+          "token_count": 500,
+          "content_preview": "ale80571_ch01_002-028.qxd  12/2/11  12:20 PM  Page 2\n3\nBasic Concepts\nSome books are to be tasted, others to be swallowed, and some few to\nbe chewed a"
+        },
+        {
+          "rank": 5,
+          "section": "Chapter 1 introduces a six-step method for solving circuit prob-",
+          "hybrid_score": 0.45030476533332753,
+          "bm25_score": 0.9006095306666551,
+          "faiss_score": 0.0,
+          "token_count": 500,
+          "content_preview": " engineering is an exciting and challenging discipline, the course\nmay intimidate you. This book was written to prevent that. A good text-\nbook and a "
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.8238338524730144,
+        "avg_faiss_score": 0.2732534885406494,
+        "max_faiss_score": 0.46807146072387695,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "Thevenin equivalent Norton equivalent",
+      "type": "technical-terms",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "4.6 Norton’s Theorem 145",
+          "hybrid_score": 0.7583841979252337,
+          "bm25_score": 0.999999999949741,
+          "faiss_score": 0.5167683959007263,
+          "token_count": 500,
+          "content_preview": "127-174.qxd  11/30/11  12:51 PM  Page 145\nthat the short-circuit current in Fig. 4.37(b) is This must be the same\nshort-circuit current from terminal "
+        },
+        {
+          "rank": 2,
+          "section": "4.6 Norton’s Theorem 145",
+          "hybrid_score": 0.7488122018672767,
+          "bm25_score": 0.924669987459529,
+          "faiss_score": 0.5729544162750244,
+          "token_count": 500,
+          "content_preview": "Obtain the Thevenin equivalent of the circuit in Fig. 4.36.\nAnswer: VTh /H110050 V, RTh /H11005/H110027.5 /H9024.\nPractice Problem 4.10\n5 Ω 15 Ω\na\nb\n1"
+        },
+        {
+          "rank": 3,
+          "section": "4.6 Norton’s Theorem 145",
+          "hybrid_score": 0.6384052511869938,
+          "bm25_score": 0.709480380379969,
+          "faiss_score": 0.5673301219940186,
+          "token_count": 22,
+          "content_preview": "4.7\n†Derivations of Thevenin’s \nand Norton’s Theorems 149"
+        },
+        {
+          "rank": 4,
+          "section": "INRN",
+          "hybrid_score": 0.5329851992314568,
+          "bm25_score": 0.5483474507700425,
+          "faiss_score": 0.5176229476928711,
+          "token_count": 500,
+          "content_preview": "ale80571_ch04_127-174.qxd  11/30/11  12:51 PM  Page 148\nDerivations of Thevenin’s and\nNorton’s Theorems\nIn this section, we will prove Thevenin’s and "
+        },
+        {
+          "rank": 5,
+          "section": "4.7 The Norton resistance is exactly equal to the",
+          "hybrid_score": 0.4210959968973639,
+          "bm25_score": 0.31249248941926994,
+          "faiss_score": 0.5296995043754578,
+          "token_count": 12,
+          "content_preview": "Thevenin resistance \n(a) True (b) False"
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.6989980615957102,
+        "avg_faiss_score": 0.5408750772476196,
+        "max_faiss_score": 0.5729544162750244,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "mesh analysis nodal analysis",
+      "type": "technical-terms",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "7. An unbalanced three-phase system can be analyzed using nodal or",
+          "hybrid_score": 0.7407892373015553,
+          "bm25_score": 0.72226018246215,
+          "faiss_score": 0.7593182921409607,
+          "token_count": 3,
+          "content_preview": "mesh analysis."
+        },
+        {
+          "rank": 2,
+          "section": "3.40 For the bridge network in Fig. 3.86, ﬁnd using",
+          "hybrid_score": 0.6769573977841243,
+          "bm25_score": 0.7157562953736992,
+          "faiss_score": 0.6381585001945496,
+          "token_count": 4,
+          "content_preview": "mesh analysis.\nio"
+        },
+        {
+          "rank": 3,
+          "section": "3.1 Using Fig. 3.50, design a problem to help other",
+          "hybrid_score": 0.6327619634084289,
+          "bm25_score": 0.7250434323176512,
+          "faiss_score": 0.5404804944992065,
+          "token_count": 7,
+          "content_preview": "students better understand nodal analysis."
+        },
+        {
+          "rank": 4,
+          "section": "3.39 Using Fig. 3.50 from Prob. 3.1, design a problem to",
+          "hybrid_score": 0.6155369892845131,
+          "bm25_score": 0.6908713609237623,
+          "faiss_score": 0.5402026176452637,
+          "token_count": 8,
+          "content_preview": "help other students better understand mesh analysis."
+        },
+        {
+          "rank": 5,
+          "section": "3.5 Mesh Analysis with Current Sources 98",
+          "hybrid_score": 0.5875613279942045,
+          "bm25_score": 0.6193606034523983,
+          "faiss_score": 0.5557620525360107,
+          "token_count": 16,
+          "content_preview": "3.6\n†Nodal and Mesh Analyses\nby Inspection 100"
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.6946583749059323,
+        "avg_faiss_score": 0.6067843914031983,
+        "max_faiss_score": 0.7593182921409607,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "power factor correction",
+      "type": "phrase-based",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "11.70 Design a problem to help other students better",
+          "hybrid_score": 0.9251323342069562,
+          "bm25_score": 0.9999999999492518,
+          "faiss_score": 0.8502646684646606,
+          "token_count": 6,
+          "content_preview": "understand power factor correction."
+        },
+        {
+          "rank": 2,
+          "section": "IL IC",
+          "hybrid_score": 0.6808512477903503,
+          "bm25_score": 0.8367677865085877,
+          "faiss_score": 0.524934709072113,
+          "token_count": 500,
+          "content_preview": "Inductive\nload\nC\nI\nFigure 11.27\nPower factor correction: (a) original inductive load, \n(b) inductive load with improved power factor.\nV\nIC\nIC\nIL\nI\n/H9"
+        },
+        {
+          "rank": 3,
+          "section": "11.8 Power Factor Correction 481",
+          "hybrid_score": 0.6081272850543391,
+          "bm25_score": 0.6951154252112174,
+          "faiss_score": 0.5211391448974609,
+          "token_count": 462,
+          "content_preview": "The process of increasing the power factor without altering the voltage\nor current to the original load is known as power factor correction.\nSince mos"
+        },
+        {
+          "rank": 4,
+          "section": "11.81 Design a problem to help other students better understand",
+          "hybrid_score": 0.541341632837737,
+          "bm25_score": 0.4414053563966043,
+          "faiss_score": 0.6412779092788696,
+          "token_count": 11,
+          "content_preview": "how to correct power factor to values other than unity."
+        },
+        {
+          "rank": 5,
+          "section": "10. Power factor correction is necessary for economic reasons; it is the",
+          "hybrid_score": 0.5143265940154748,
+          "bm25_score": 0.4589541986396226,
+          "faiss_score": 0.5696989893913269,
+          "token_count": 17,
+          "content_preview": "process of improving the power factor of a load by reducing the\noverall reactive power."
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.6864485533410567,
+        "avg_faiss_score": 0.6214630842208863,
+        "max_faiss_score": 0.8502646684646606,
+        "bm25_dominant": true
+      }
+    },
+    {
+      "query": "steady state transient response",
+      "type": "phrase-based",
+      "status": "passed",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "5. If independent sources are present in the circuit after switching,",
+          "hybrid_score": 0.8394367694643612,
+          "bm25_score": 0.9999999999577752,
+          "faiss_score": 0.6788735389709473,
+          "token_count": 17,
+          "content_preview": "the complete response is the sum of the transient response and the\nsteady-state response."
+        },
+        {
+          "rank": 2,
+          "section": "3. Using the Laplace transform to analyze a circuit results in a com-",
+          "hybrid_score": 0.7798278880731284,
+          "bm25_score": 0.9279308820994734,
+          "faiss_score": 0.6317248940467834,
+          "token_count": 21,
+          "content_preview": "plete (both transient and steady state) response because the initial\nconditions are incorporated in the transformation process."
+        },
+        {
+          "rank": 3,
+          "section": "1. Deﬁne. Although the problem appears to be clearly stated, it",
+          "hybrid_score": 0.7253812286040985,
+          "bm25_score": 0.8506406610770629,
+          "faiss_score": 0.600121796131134,
+          "token_count": 41,
+          "content_preview": "might be advisable to check with the individual who assigned\nthe problem to make sure he or she wants the transient response\nrather than the steady-st"
+        },
+        {
+          "rank": 4,
+          "section": "6. The total or complete response consists of the steady-state",
+          "hybrid_score": 0.6222039065780559,
+          "bm25_score": 0.5400359435920554,
+          "faiss_score": 0.7043718695640564,
+          "token_count": 6,
+          "content_preview": "response and the transient response."
+        },
+        {
+          "rank": 5,
+          "section": "5. The steady-state response is the behavior of the circuit after an",
+          "hybrid_score": 0.49388194272495956,
+          "bm25_score": 0.4747110046859116,
+          "faiss_score": 0.5130528807640076,
+          "token_count": 29,
+          "content_preview": "independent source has been applied for a long time. The transient\nresponse is the component of the complete response that dies out\nwith time."
+        }
+      ],
+      "statistics": {
+        "avg_bm25_score": 0.7586636982824557,
+        "avg_faiss_score": 0.6256289958953858,
+        "max_faiss_score": 0.7043718695640564,
+        "bm25_dominant": true
+      }
+    }
+  ]
+}

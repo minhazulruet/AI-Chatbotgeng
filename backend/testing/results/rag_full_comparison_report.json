@@ -1,0 +1,347 @@
+{
+  "generated_at": "1776415211.246846",
+  "queries": [
+    {
+      "query": "operational amplifier gain",
+      "type": "keyword-based",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "4. The decibel is the unit of logarithmic gain. For a voltage or current",
+          "hybrid_score": 0.5434884527369379,
+          "bm25_score": 0.5754698115674732,
+          "faiss_score": 0.5115070939064026,
+          "token_count": 8,
+          "full_content": "gain G, its decibel equivalent is",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 2,
+          "section": "2. The input impedance of both inputs is very high and does not vary",
+          "hybrid_score": 0.5318178437667453,
+          "bm25_score": 0.5805601879988839,
+          "faiss_score": 0.48307549953460693,
+          "token_count": 6,
+          "full_content": "as the gain is adjusted.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 3,
+          "section": "3. An ideal op amp has an inﬁnite input resistance, a zero output",
+          "hybrid_score": 0.5272236965613926,
+          "bm25_score": 0.5805601879988839,
+          "faiss_score": 0.47388720512390137,
+          "token_count": 11,
+          "full_content": "resistance, and an inﬁnite gain.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 4,
+          "section": "5.10.2 Instrumentation Ampliﬁers",
+          "hybrid_score": 0.49999999995450306,
+          "bm25_score": 0.9999999999090061,
+          "faiss_score": 0.0,
+          "token_count": 500,
+          "full_content": "One of the most useful and versatile op amp circuits for precision\nmeasurement and process control is the instrumentation ampliﬁer (IA),\nso called because of its widespread use in measurement systems. Typ-\nical applications of IAs include isolation ampliﬁers, thermocouple\nampliﬁers, and data acquisition systems.\nThe instrumentation ampliﬁer is an extension of the difference\nampliﬁer in that it ampliﬁes the difference between its input signals.\nAs shown in Fig. 5.26 (see Example 5.8), an instrumentation ampliﬁer\ntypically consists of three op amps and seven resistors. For conven-\nience, the ampliﬁer is shown again in Fig. 5.38(a), where the resistors are\nmade equal except for the external gain-setting resistor R\nG, connected\nbetween the gain set terminals. Figure 5.38(b) shows its schematic\nsymbol. Example 5.8 showed that\n(5.24)v\no /H11005Av(v2 /H11002v1)\n198 Chapter 5 Operational Ampliﬁers\n+\n−\nRG\nSmall differential signals riding on larger\ncommon-mode signals\nInstrumentation amplifier Amplified differential signal,\nno common-mode signal\nFigure 5.39\nThe IA rejects common voltages but ampliﬁes small signal voltages.\nFloyd, Thomas, L, Electronic Devices, 4th edition, © 1995, p. 795. Reprinted by permission of Pearson \nEducation, Inc., Upper Saddle River, NJ.\nwhere the voltage gain is\n(5.25)\nAs shown in Fig. 5.39, the instrumentation ampliﬁer ampliﬁes small\ndifferential signal voltages superimposed on larger common-mode\nAv /H110051 /H110012R\nRG\n+\n−\n+\n−\n+\n−\n1\n2\n3\nR\nR\nR\nR\nR\nR\nRG\nv1\nv2\nvo\nInverting input\nGain set\nGain set\nNoninverting input\nOutput\n(a) (b)\n+\n−\nFigure 5.38\n(a) The instrumentation ampliﬁer with an external resistance to adjust the gain, (b) schematic diagram.\nale80571_ch05_175-",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 5,
+          "section": "Chapter 14.",
+          "hybrid_score": 0.4673554629975,
+          "bm25_score": 0.49319714921582525,
+          "faiss_score": 0.4415137767791748,
+          "token_count": 353,
+          "full_content": "A dB /H1100520 log\n10 ATABLE 5.1\nTypical ranges for op amp parameters.\nParameter Typical range Ideal values\nOpen-loop gain, A 105 to 108 /H11009\nInput resistance, Ri 105 to 1013 /H9024/H11009 /H9024\nOutput resistance, Ro 10 to 100 /H9024 0/H9024\nSupply voltage, VCC 5 to 24 V\nale80571_ch05_175-214.qxd  11/30/11  12:56 PM  Page 177\nshows typical values of voltage gain A, input resistance R i, output\nresistance Ro, and supply voltage VCC.\nThe concept of feedback is crucial to our understanding of op amp\ncircuits. A negative feedback is achieved when the output is fed back\nto the inverting terminal of the op amp. As Example 5.1 shows, when\nthere is a feedback path from output to input, the ratio of the output\nvoltage to the input voltage is called the closed-loop gain. As a result\nof the negative feedback, it can be shown that the closed-loop gain is\nalmost insensitive to the open-loop gain A of the op amp. For this rea-\nson, op amps are used in circuits with feedback paths.\nA practical limitation of the op amp is that the magnitude of its\noutput voltage cannot exceed | V\nCC |. In other words, the output voltage\nis dependent on and is limited by the power supply voltage. Figure 5.5\nillustrates that the op amp can operate in three modes, depending on\nthe differential input voltage v\nd:",
+          "is_bm25_dominant": true
+        }
+      ]
+    },
+    {
+      "query": "capacitor voltage current",
+      "type": "keyword-based",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "6.7 At , the voltage across a 25-mF capacitor is 10 V .",
+          "hybrid_score": 0.7388638497324906,
+          "bm25_score": 0.8968991519872591,
+          "faiss_score": 0.5808285474777222,
+          "token_count": 21,
+          "full_content": "Calculate the voltage across the capacitor for \nwhen current 5t mA ﬂows through it.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 2,
+          "section": "6.2 A capacitor has energy",
+          "hybrid_score": 0.7047077820376971,
+          "bm25_score": 0.7114874334487158,
+          "faiss_score": 0.6979281306266785,
+          "token_count": 8,
+          "full_content": "Determine the current through the capacitor.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 3,
+          "section": "18.8 The current through an initially uncharged 1-F",
+          "hybrid_score": 0.7000350309832144,
+          "bm25_score": 0.7508848813023662,
+          "faiss_score": 0.6491851806640625,
+          "token_count": 22,
+          "full_content": "capacitor is The voltage across the capacitor is:\n(a) (b) \n(c) (d)",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 4,
+          "section": "6.4 A current of A ﬂows through a 5-F capacitor.",
+          "hybrid_score": 0.6995230920562092,
+          "bm25_score": 0.684758783866752,
+          "faiss_score": 0.7142874002456665,
+          "token_count": 8,
+          "full_content": "Find the voltage across the capacitor given that",
+          "is_bm25_dominant": false
+        },
+        {
+          "rank": 5,
+          "section": "5. For a resistor for an inductor and for a",
+          "hybrid_score": 0.5741052470028816,
+          "bm25_score": 0.4690038842798111,
+          "faiss_score": 0.6792066097259521,
+          "token_count": 3,
+          "full_content": "capacitor",
+          "is_bm25_dominant": false
+        }
+      ]
+    },
+    {
+      "query": "How does a circuit work?",
+      "type": "concept-based",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "1.27 A constant current of 3 A for 4 hours is required",
+          "hybrid_score": 0.49999999996293687,
+          "bm25_score": 0.9999999999258737,
+          "faiss_score": 0.0,
+          "token_count": 64,
+          "full_content": "to charge an automotive battery. If the terminal\nvoltage is V , where t is in hours,\n(a) how much charge is transported as a result of the\ncharging?\n(b) how much energy is expended?\n(c) how much does the charging cost? Assume\nelectricity costs 9 cents/kWh.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 2,
+          "section": "1.32 A telephone wire has a current of A ﬂowing",
+          "hybrid_score": 0.4955052063871006,
+          "bm25_score": 0.9910104127742012,
+          "faiss_score": 0.0,
+          "token_count": 21,
+          "full_content": "through it. How long does it take for a charge of\n15 C to pass through the wire?",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 3,
+          "section": "NASA",
+          "hybrid_score": 0.4740491746572607,
+          "bm25_score": 0.4825360057171093,
+          "faiss_score": 0.4655623435974121,
+          "token_count": 500,
+          "full_content": " looking up material you thought you\nhad acquired in earlier courses may seem very tedious at ﬁrst; how-\never, as your skills develop and your knowledge increases, this process\nwill become easier and easier. On a personal note, it is this very process\nthat led me from being a much less than average student to someone\nwho could earn a Ph.D. and become a successful researcher.\nPhoto by Charles Alexander\nale80571_ch01_002-028.qxd  12/2/11  12:20 PM  Page 3\n4 Chapter 1 Basic Concepts\n+\n−\nCurrent\nLampBattery\nFigure 1.1\nA simple electric circuit.\nL1\nC4\nAntenna\nC5Q2\nR7\nR2 R4 R6\nR3 R5\nC1\nC3\nC2\nElectret\nmicrophone\nR1\n+\n−\n+ 9 V (DC)\nQ1\nFigure 1.2\nElectric circuit of a radio transmitter.\nIntroduction\nElectric circuit theory and electromagnetic theory are the two funda-\nmental theories upon which all branches of electrical engineering are\nbuilt. Many branches of electrical engineering, such as power, electric\nmachines, control, electronics, communications, and instrumentation,\nare based on electric circuit theory. Therefore, the basic electric circuit\ntheory course is the most important course for an electrical engineer-\ning student, and always an excellent starting point for a beginning stu-\ndent in electrical engineering education. Circuit theory is also valuable\nto students specializing in other branches of the physical sciences\nbecause circuits are a good model for the study of energy systems in\ngeneral, and because of the applied mathematics, physics, and topol-\nogy involved.\nIn electrical engineering, we are often interested in communicating\nor transferring energy from one point to another. To do this requires an\ninterconnection of electrical devices. Such interconnection is referred\nto as an electric circuit , and each component of the circuit is known as\nan element.\nAn electric circuit is an interconnection of electrical elements.\nA simple electric circuit is shown in Fig. 1.1. It consists of three\nbasic elements: a battery, a lamp, and connecting wires. Such a simple\ncircuit can exist by itself; it has several applications, such as a ﬂash-\nlight, a search light, and so forth.\nA complicated real circuit is",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 4,
+          "section": "6.3 Design a problem to help other students better",
+          "hybrid_score": 0.46468713768831776,
+          "bm25_score": 0.9293742753766355,
+          "faiss_score": 0.0,
+          "token_count": 7,
+          "full_content": "understand how capacitors work.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 5,
+          "section": "6.36 Design a problem to help other students better",
+          "hybrid_score": 0.46468713768831776,
+          "bm25_score": 0.9293742753766355,
+          "faiss_score": 0.0,
+          "token_count": 8,
+          "full_content": "understand how inductors work.",
+          "is_bm25_dominant": true
+        }
+      ]
+    },
+    {
+      "query": "What is Ohms law?",
+      "type": "question-based",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "1.64 /H1100310/H110028",
+          "hybrid_score": 0.6982958531761801,
+          "bm25_score": 0.9454584551621747,
+          "faiss_score": 0.45113325119018555,
+          "token_count": 406,
+          "full_content": "/H9024/H11554\nale80571_ch02_029-080.qxd  11/30/11  12:36 PM  Page 30\nsymbol for the resistor is shown in Fig. 2.1(b), where R stands for the\nresistance of the resistor. The resistor is the simplest passive element.\nGeorg Simon Ohm (1787–1854), a German physicist, is credited\nwith ﬁnding the relationship between current and voltage for a resis-\ntor. This relationship is known as Ohm’ s law.\nOhm’s law states that the voltage v across a resistor is directly propor-\ntional to the current i ﬂowing through the resistor.\nThat is,\n(2.2)\nOhm deﬁned the constant of proportionality for a resistor to be the\nresistance, R. (The resistance is a material property which can change\nif the internal or external conditions of the element are altered, e.g., if\nthere are changes in the temperature.) Thus, Eq. (2.2) becomes\n(2.3)\nwhich is the mathematical form of Ohm’s law. R in Eq. (2.3) is mea-\nsured in the unit of ohms, designated . Thus,\nThe resistance R of an element denotes its ability to resist the ﬂow of\nelectric current; it is measured in ohms ( ).\nWe may deduce from Eq. (2.3) that\n(2.4)\nso that\nTo apply Ohm’s law as stated in Eq. (2.3), we must pay careful\nattention to the current direction and voltage polarity. The direction of\ncurrent i and the polarity of voltage v must conform with the passive\n1 /H9024/H110051 V/A\nR /H11005v\ni\n/H9024\n/H9024\nv /H11005i R\nv r i",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 2,
+          "section": "2. Apply KCL to each of the nonreference nodes. Use",
+          "hybrid_score": 0.5351187615063595,
+          "bm25_score": 0.5743076261812065,
+          "faiss_score": 0.49592989683151245,
+          "token_count": 17,
+          "full_content": "Ohm’s law to express the branch currents in terms of node\nvoltages.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 3,
+          "section": "2.1 Design a problem, complete with a solution, to help",
+          "hybrid_score": 0.5055257549726877,
+          "bm25_score": 0.5412202816891498,
+          "faiss_score": 0.4698312282562256,
+          "token_count": 48,
+          "full_content": "students to better understand Ohm’s Law. Use at\nleast two resistors and one voltage source. Hint, you\ncould use both resistors at once or one at a time, it is\nup to you. Be creative.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 4,
+          "section": "1. A resistor is a passive element in which the voltage v across it is",
+          "hybrid_score": 0.5033578669324557,
+          "bm25_score": 0.5424229095965702,
+          "faiss_score": 0.46429282426834106,
+          "token_count": 76,
+          "full_content": "directly proportional to the current i through it. That is, a resistor\nis a device that obeys Ohm’s law,\nwhere R is the resistance of the resistor.\nv /H11005iR\n2.9\nale80571_ch02_029-080.qxd  11/30/11  12:37 PM  Page 64",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 5,
+          "section": "5.93 A /H11005 1",
+          "hybrid_score": 0.49999999995786715,
+          "bm25_score": 0.9999999999157343,
+          "faiss_score": 0.0,
+          "token_count": 181,
+          "full_content": "H110010.0625 /H11005\n/H11001 0.0625v5 /H110010.03125v6\n /H11005v1 /H110010.5v2 /H110010.25v3 /H110010.125v4\n /H11002vo /H11005(Rf/H20862R1) v1 /H11001¬¬¬ /H11001(Rf/H20862R6) v6\nR6 /H11005320 k ohms,\nR4 /H1100580 k ohms, R5 /H11005160 k ohms, \nR2 /H1100520 k ohms, R3 /H1100540 k ohms, \nRG /H1100510 k ohms, R1 /H1100510 k ohms,",
+          "is_bm25_dominant": true
+        }
+      ]
+    },
+    {
+      "query": "Thevenin equivalent Norton equivalent",
+      "type": "technical-terms",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "4.6 Norton’s Theorem 145",
+          "hybrid_score": 0.7583841979252337,
+          "bm25_score": 0.999999999949741,
+          "faiss_score": 0.5167683959007263,
+          "token_count": 500,
+          "full_content": "127-174.qxd  11/30/11  12:51 PM  Page 145\nthat the short-circuit current in Fig. 4.37(b) is This must be the same\nshort-circuit current from terminal a to b in Fig. 4.37(a), since the two\ncircuits are equivalent. Thus,\n(4.10)\nshown in Fig. 4.38. Dependent and independent sources are treated the\nsame way as in Thevenin’s theorem.\nObserve the close relationship between Norton’s and Thevenin’s\ntheorems: as in Eq. (4.9), and\n(4.11)\nThis is essentially source transformation. For this reason, source trans-\nformation is often called Thevenin-Norton transformation.\nSince and are related according to Eq. (4.11), to deter-\nmine the Thevenin or Norton equivalent circuit requires that we ﬁnd:\n• The open-circuit voltage across terminals a and b.\n• The short-circuit current at terminals a and b.\n• The equivalent or input resistance at terminals a and b when\nall independent sources are turned off.\nWe can calculate any two of the three using the method that takes the\nleast effort and use them to get the third using Ohm’s law. Example 4.11\nwill illustrate this. Also, since\n(4.12a)\n(4.12b)\n(4.12c)\nthe open-circuit and short-circuit tests are sufﬁcient to ﬁnd any Thevenin\nor Norton equivalent, of a circuit which contains at least one inde-\npendent source.\nR\nTh /H11005voc\nisc\n/H11005RN\nIN /H11005isc\nVTh /H11005voc\nRin\nisc\nvoc\nRThIN,VTh,\nIN /H11005VTh\nRTh\nRN /H11005RTh\nIN /H11005isc\nIN.\n146 Chapter 4 Circuit Theorems\nLinear \ntwo-terminal\ncircuit\na\nb\nisc = IN\nFigure 4.38\nFinding Norton current IN.\nExample 4.11\n2 A\n8 Ω\n8 Ω\n5 Ω\n4 Ω\n12 V\na\nb\n+−\nThe Thevenin and Norton equivalent\ncircuits",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 2,
+          "section": "4.6 Norton’s Theorem 145",
+          "hybrid_score": 0.7488122018672767,
+          "bm25_score": 0.924669987459529,
+          "faiss_score": 0.5729544162750244,
+          "token_count": 500,
+          "full_content": "Obtain the Thevenin equivalent of the circuit in Fig. 4.36.\nAnswer: VTh /H110050 V, RTh /H11005/H110027.5 /H9024.\nPractice Problem 4.10\n5 Ω 15 Ω\na\nb\n10 Ω 4vx\n+ −\n+\n−\nvx\nFigure 4.36\nFor Practice Prob. 4.10.\nNorton’s Theorem\nIn 1926, about 43 years after Thevenin published his theorem, E. L.\nNorton, an American engineer at Bell Telephone Laboratories, pro-\nposed a similar theorem.\n4.6\nNorton’s theorem states that a linear two-terminal circuit can be\nreplaced by an equivalent circuit consisting of a current source IN in\nparallel with a resistor R N, where I N is the short-circuit current through\nthe terminals and R N is the input or equivalent resistance at the termi-\nnals when the independent sources are turned off.\nThus, the circuit in Fig. 4.37(a) can be replaced by the one in Fig. 4.37(b).\nThe proof of Norton’s theorem will be given in the next section.\nFor now, we are mainly concerned with how to get and We ﬁnd\nin the same way we ﬁnd In fact, from what we know about\nsource transformation, the Thevenin and Norton resistances are equal;\nthat is,\n(4.9)\nTo ﬁnd the Norton current we determine the short-circuit current\nﬂowing from terminal a to b in both circuits in Fig. 4.37. It is evident\nIN,\nRN /H11005RTh\nRTh.RN\nIN.RN\nLinear \ntwo-terminal\ncircuit\na\nb\n(a)\n(b)\nRN\na\nb\nIN\nFigure 4.37\n(a) Original circuit, (b) Norton equivalent\ncircuit.\nale80571_ch04_127-174.qxd  11/30/11  12:51 PM  Page 145\nthat the short-circuit current in Fig. 4.37(b) is This must be the same\nshort-circuit current from terminal a to b in Fig. 4.37(a), since the two\ncircuits are equivalent. Thus,\n(4.10)\nshown",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 3,
+          "section": "4.6 Norton’s Theorem 145",
+          "hybrid_score": 0.6384052511869938,
+          "bm25_score": 0.709480380379969,
+          "faiss_score": 0.5673301219940186,
+          "token_count": 22,
+          "full_content": "4.7\n†Derivations of Thevenin’s \nand Norton’s Theorems 149",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 4,
+          "section": "INRN",
+          "hybrid_score": 0.5329851992314568,
+          "bm25_score": 0.5483474507700425,
+          "faiss_score": 0.5176229476928711,
+          "token_count": 500,
+          "full_content": "ale80571_ch04_127-174.qxd  11/30/11  12:51 PM  Page 148\nDerivations of Thevenin’s and\nNorton’s Theorems\nIn this section, we will prove Thevenin’s and Norton’s theorems using\nthe superposition principle.\nConsider the linear circuit in Fig. 4.46(a). It is assumed that the\ncircuit contains resistors and dependent and independent sources. We\nhave access to the circuit via terminals a and b, through which current\nfrom an external source is applied. Our objective is to ensure that the\nvoltage-current relation at terminals a and b is identical to that of the\nThevenin equivalent in Fig. 4.46(b). For the sake of simplicity, sup-\npose the linear circuit in Fig. 4.46(a) contains two independent voltage\nsources and and two independent current sources and We\nmay obtain any circuit variable, such as the terminal voltage v, by\napplying superposition. That is, we consider the contribution due to\neach independent source including the external source i. By superpo-\nsition, the terminal voltage v is\n(4.13)\nwhere and are constants. Each term on the right-hand\nside of Eq. (4.13) is the contribution of the related independent source;\nthat is, is the contribution to v due to the external current source i ,\nis the contribution due to the voltage source and so on. We\nmay collect terms for the internal independent sources together as \nso that Eq. (4.13) becomes\n(4.14)\nwhere We now want to evalu-\nate the values of constants and When the terminals a and b are\nopen-circuited, and Thus, is the open-circuit voltage\nwhich is the same as so\n(4.15)\nWhen all the internal sources are turned off, The circuit can\nthen be replaced by an equivalent resistance which is the same as\nand Eq. (4.14) becomes\n(4.16)\nSubstituting the values of and in Eq. (4.14) gives\n(4.17)\nwhich expresses the voltage-current relation at terminals a and b of the\ncircuit in Fig. 4.46(b). Thus, the two circuits in Fig. 4.46(a) and 4.46(b)\nare",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 5,
+          "section": "4.7 The Norton resistance is exactly equal to the",
+          "hybrid_score": 0.4210959968973639,
+          "bm25_score": 0.31249248941926994,
+          "faiss_score": 0.5296995043754578,
+          "token_count": 12,
+          "full_content": "Thevenin resistance \n(a) True (b) False",
+          "is_bm25_dominant": false
+        }
+      ]
+    },
+    {
+      "query": "power factor correction",
+      "type": "phrase-based",
+      "num_results": 5,
+      "results": [
+        {
+          "rank": 1,
+          "section": "11.70 Design a problem to help other students better",
+          "hybrid_score": 0.9251323342069562,
+          "bm25_score": 0.9999999999492518,
+          "faiss_score": 0.8502646684646606,
+          "token_count": 6,
+          "full_content": "understand power factor correction.",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 2,
+          "section": "IL IC",
+          "hybrid_score": 0.6808512477903503,
+          "bm25_score": 0.8367677865085877,
+          "faiss_score": 0.524934709072113,
+          "token_count": 500,
+          "full_content": "Inductive\nload\nC\nI\nFigure 11.27\nPower factor correction: (a) original inductive load, \n(b) inductive load with improved power factor.\nV\nIC\nIC\nIL\nI\n/H92581\n/H92582\nFigure 11.28\nPhasor diagram showing the effect of\nadding a capacitor in parallel with the\ninductive load.\nWe can look at the power factor correction from another perspec-\ntive. Consider the power triangle in Fig. 11.29. If the original inductive\nload has apparent power then\n(11.57)P /H11005S1 cos u1,  Q1 /H11005S1 sin u1 /H11005P tan u1\nS1,\nale80571_ch11_457-502.qxd  11/30/11  1:24 PM  Page 481\nIf we desire to increase the power factor from to without\naltering the real power (i.e., ), then the new reactive power is\n(11.58)\nThe reduction in the reactive power is caused by the shunt capacitor;\nthat is,\n(11.59)\nBut from Eq. (11.46), The value of the\nrequired shunt capacitance C is determined as\n(11.60)\nNote that the real power P dissipated by the load is not affected by the\npower factor correction because the average power due to the capaci-\ntance is zero.\nAlthough the most common situation in practice is that of an\ninductive load, it is also possible that the load is capacitive; that is, the\nload is operating at a leading power factor. In this case, an inductor\nshould be connected across the load for power factor correction. The\nrequired shunt inductance L can be calculated from\n(11.61)\nwhere the difference between the new and old reac-\ntive powers.\nQ\nL /H11005Q1 /H11002Q2,\nQL /H11005V \n2\nrms\nXL\n/H11005V \n2\nrms\n/H9275L  1  L /H11005V \n2\nrms\n/H9275QL\nC /H11005QC\n/H9275V \n2\nrms\n/H11005P(tan u1 /H11002tan u2)\n",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 3,
+          "section": "11.8 Power Factor Correction 481",
+          "hybrid_score": 0.6081272850543391,
+          "bm25_score": 0.6951154252112174,
+          "faiss_score": 0.5211391448974609,
+          "token_count": 462,
+          "full_content": "The process of increasing the power factor without altering the voltage\nor current to the original load is known as power factor correction.\nSince most loads are inductive, as shown in Fig. 11.27(a), a load’s\npower factor is improved or corrected by deliberately installing a\ncapacitor in parallel with the load, as shown in Fig. 11.27(b). The effect\nof adding the capacitor can be illustrated using either the power trian-\ngle or the phasor diagram of the currents involved. Figure 11.28 shows\nthe latter, where it is assumed that the circuit in Fig. 11.27(a) has a\npower factor of while the one in Fig. 11.27(b) has a power fac-\ntor of It is evident from Fig. 11.28 that adding the capacitor has\ncaused the phase angle between the supplied voltage and current to\nreduce from to thereby increasing the power factor. We also\nnotice from the magnitudes of the vectors in Fig. 11.28 that with the\nsame supplied voltage, the circuit in Fig. 11.27(a) draws larger current\nthan the current I drawn by the circuit in Fig. 11.27(b). Power com-\npanies charge more for larger currents, because they result in increased\npower losses (by a squared factor, since ). Therefore, it is ben-\neﬁcial to both the power company and the consumer that every effort\nis made to minimize current level or keep the power factor as close to\nunity as possible. By choosing a suitable size for the capacitor, the cur-\nrent can be made to be completely in phase with the voltage, imply-\ning unity power factor.\nP /H11005I\n L \n2 R\nIL\nu2,u1\ncos u2.\ncos u1,\nAlternatively, power factor correction\nmay be viewed as the addition of a re-\nactive element (usually a capacitor) in\nparallel with the load in order to make\nthe power factor closer to unity.\nAn inductive load is modeled as a\nseries combination of an inductor and\na resistor.\nV\n+\n−\n(a)\nIL\nInductive\nload\nV\n+\n−\n(b)",
+          "is_bm25_dominant": true
+        },
+        {
+          "rank": 4,
+          "section": "11.81 Design a problem to help other students better understand",
+          "hybrid_score": 0.541341632837737,
+          "bm25_score": 0.4414053563966043,
+          "faiss_score": 0.6412779092788696,
+          "token_count": 11,
+          "full_content": "how to correct power factor to values other than unity.",
+          "is_bm25_dominant": false
+        },
+        {
+          "rank": 5,
+          "section": "10. Power factor correction is necessary for economic reasons; it is the",
+          "hybrid_score": 0.5143265940154748,
+          "bm25_score": 0.4589541986396226,
+          "faiss_score": 0.5696989893913269,
+          "token_count": 17,
+          "full_content": "process of improving the power factor of a load by reducing the\noverall reactive power.",
+          "is_bm25_dominant": false
+        }
+      ]
+    }
+  ]
+}
