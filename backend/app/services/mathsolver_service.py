@@ -17,7 +17,7 @@ class MathSolverService:
     def __init__(self):
         self.api_key = os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY")
         self.base_url = "https://openrouter.ai/api/v1"
-        self.model = "google/gemini-2.5-flash-lite"
+        self.model = "google/gemini-2.5-flash"
         # Get APP_URL from environment, or construct from environment PORT
         self.app_url = os.getenv("APP_URL") or f"http://localhost:{os.getenv('PORT', 10000)}"
         

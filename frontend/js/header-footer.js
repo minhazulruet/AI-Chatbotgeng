@@ -27,7 +27,7 @@ function initializeHeaderFooter() {
     const headerHTML = `
     <nav class="navbar">
         <div class="navbar-brand">
-            <a href="index.html">GENG 300 - Applied Numerical Methods</a>
+            <a href="index.html">Khandakar's Digital Assistance</a>
         </div>
         <ul class="nav-links">
             ${navLinks}
@@ -51,7 +51,7 @@ function initializeHeaderFooter() {
             <div class="footer-section">
                 <h3>Developer</h3>
                 <p>Developed and maintained by<br>
-                <strong><a href="https://scholar.google.com/citations?user=VC8FmyEAAAAJ&hl=en" target="_blank">Dr. Amith Khandakar</a></strong></p>
+                <strong><a href="https://scholar.google.com/citations?user=VC8FmyEAAAAJ&hl=en" target="_blank">Dr. Amith Khandakar Md Abdullah</a></strong></p>
             </div>
             <div class="footer-section">
                 <h3>Support</h3>

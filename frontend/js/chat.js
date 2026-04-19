@@ -115,18 +115,24 @@ function showLoadingIndicator() {
     const loadingDiv = document.createElement('div');
     loadingDiv.className = 'message loading';
     loadingDiv.id = 'loadingIndicator';
-    loadingDiv.innerHTML = '<span class="loading-dots">.</span>';
+    loadingDiv.innerHTML = '<div><span class="loading-dots">.</span> <em>AI is thinking</em></div>';
     
     // Animate dots
     let dots = 1;
     const interval = setInterval(() => {
         if (document.getElementById('loadingIndicator')) {
-            dots = (dots % 3) + 1;
-            document.querySelector('.loading-dots').textContent = '.'.repeat(dots);
+            const dotsSpan = document.querySelector('#loadingIndicator .loading-dots');
+            if (dotsSpan) {
+                dots = (dots % 3) + 1;
+                dotsSpan.textContent = '.'.repeat(dots);
+            }
         } else {
             clearInterval(interval);
         }
-    }, 500);
+    }, 400);
+    
+    // Store interval ID for cleanup
+    loadingDiv.dataset.intervalId = interval;
     
     chatMessages.appendChild(loadingDiv);
     chatMessages.scrollTop = chatMessages.scrollHeight;
