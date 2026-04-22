@@ -360,6 +360,44 @@ a {
     margin-top: 0.15rem;
 }
 
+.demo-section {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, #ffffff 100%);
+    border: 1px solid rgba(15, 142, 154, 0.14);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: clamp(1rem, 2.5vw, 1.5rem);
+    display: grid;
+    gap: 1rem;
+    animation: riseIn 0.6s ease;
+}
+
+.demo-header h2 {
+    color: #0f5a63;
+    margin-bottom: 0.35rem;
+}
+
+.demo-header p {
+    color: var(--text-secondary);
+}
+
+.video-embed {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 18px;
+    background: #0d2125;
+    box-shadow: var(--shadow-sm);
+}
+
+.video-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 .sidebar {
     float: left;
     width: min(300px, 100%);
