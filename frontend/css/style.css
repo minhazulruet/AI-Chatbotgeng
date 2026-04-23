@@ -457,7 +457,8 @@ a {
 /* Shared tool-page shell */
 .chat-page,
 .quiz-page,
-.mathsolver-page {
+.mathsolver-page,
+.demo-page {
     display: flex;
     flex-direction: column;
     gap: var(--space-4);

@@ -17,6 +17,7 @@ function initializeHeaderFooter() {
             <li><a href="flashcards.html">Flashcards</a></li>
             <li><a href="mathsolver.html">Math Solver</a></li>
             <li><a href="diagnostics.html">Diagnostics</a></li>
+                        <li><a href="demo.html">Website Demo</a></li>
           `;
 
     const userActions = isAuthPage
